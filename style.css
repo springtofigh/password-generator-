@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #e2e1e1;
+}
+
+.container {
+    width: 420px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 43px;
+    background: #e0e0e0;
+    box-shadow:  23px 23px 46px #b3b3b3,-23px -23px 46px #ffffff;
+}
+
+.show-resulte {
+    margin-bottom: 35px;
+    font-size: 18px;
+    position: relative;
+    letter-spacing: 1px;
+}
+
+.show-resulte textarea {
+    width: 300px;
+    height: 45px;
+    background: #f7f7f7;
+    color: #2c2b2b;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 0 9px;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow:  11px 11px 22px #bebbbb,-11px -11px 22px #bebbbb;
+}
+
+.settings {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.buttons {
+    display: flex;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.btn {
+    width: 50%;
+    height: 40px;
+    border: none;
+    padding: 8px 12px;
+    margin: 14px 5px 7px 5px;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #e9e6e6, #c4c2c2);
+    box-shadow:  10px 10px 25px #aeacac,-10px -10px 25px #ffffff;
+    cursor: pointer;
+}
